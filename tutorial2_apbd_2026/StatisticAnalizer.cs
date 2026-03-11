@@ -12,10 +12,20 @@ public class StatisticAnalizer
 
     static double CalculateAverage(List<int> OfIntegers)
     {
+        int sumForAverage = 0;
         for (int i = 0; i < OfIntegers.Count; i++)
         {
-            sum += OfIntegers[i];
+            sumForAverage += OfIntegers[i];
         }
-        return sum/= OfIntegers.Count;
+        return sumForAverage/= OfIntegers.Count;
+    }
+
+    static int CalculateSum(List<int> OfIntegers)
+    {
+        for (int i = 0; i < OfIntegers.Count; i++)
+        {
+            sum+=OfIntegers[i];
+        }
+        return sum;
     }
 }
