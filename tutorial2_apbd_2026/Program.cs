@@ -1,4 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, commit2!");
+class MainClass
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Hello, commit2!");
+    }
+}
